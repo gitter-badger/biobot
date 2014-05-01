@@ -8,3 +8,6 @@ Lab biobot. It will tell you the temp of the incubator from the irc channel #lon
     03:01:37 < tolland> ?incubator
     03:01:38 < biobot> The temp of the incubator at 07:59:46 is 36.437 degrees C
 
+
+biobot is a phenny (http://inamidst.com/phenny/) IRC bot with a module to generate some commands, the data is written to a file by another process to separate those privileges.
+
