@@ -15,8 +15,8 @@ exclude = ["admin"]
 # enable specific modules, trumps exclude
 # enable = []
 
-# extra modules to load by filename
-extra = ["/home/pi/.phenny/modules"]
+# extra modules to load by filename (this doesn't seem to be working)
+extra = ["/home/biobot/.phenny/modules"]
 
 # limit modules in specific channels
 # limit = {"#channel": ["module-a", "module-b"]}
