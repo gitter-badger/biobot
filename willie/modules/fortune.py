@@ -1,8 +1,8 @@
-import willie
+from willie import module
 
 import commands
 
-@willie.module.commands('fortune')
+@module.commands('fortune')
 def fortune(bot, trigger):
    fortune = commands.getoutput('fortune')
    for line in fortune.rsplit("\n"):
