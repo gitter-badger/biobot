@@ -164,7 +164,7 @@ def play(bot, trigger):
 
 locs = dict(
 hackspace = {"msg":"You are standing in the hackspace, you can see the biolab, the classroom, the workshop and a shed","go":"You go into the hackspace."}, 
-	biolab = {"msg":"You are standing in the biolab, you can see a magic wand and a homeopathy kit. You can also see a trapdoor and a pipette","look":"The biolab is a stinking fetid pit. There is a trapdoor and some laboratory equipment","go":"You go into the biolab. You are distracted by a babbling idiot. Your lifeforce is reduced by 50%"}, 
+	biolab = {"msg":"You are standing in the biolab, it smells bad. You can also see a trapdoor and a pipette","look":"The biolab is a stinking fetid pit. There is a trapdoor and some laboratory equipment","go":"You go into the biolab. You get sidetracked into a babble conversation. Your lifeforce is reduced by 50%"}, 
 		trapdoor = {"msg":"You are in a dark hole in the ground.","look":"It's too dark to see.","go":"You go down into the depths. It is a utility access box, there is nothing here."},
 		shed = {"msg":"You are in a shed.","look":"It's full of obsolete radio crap.","go":"You go into the shed. ","death":"tgreer beats you to death with a land rover tyre iron."},
 		incubator = {"msg":"it is a binder incubator.","look":"It does hold temp well."}, 
